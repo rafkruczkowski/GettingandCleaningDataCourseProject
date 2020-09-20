@@ -24,7 +24,7 @@ Apply labels by using factors for the Activity and Subjects
 Melt the remaining data to a tidy dataset based on Subject and Activity
 
 ## Project Files
-
+```
 ├── CodeBook.md                                          # Code book for project
 ├── data                                                 # Extracted dataset
 │   └── UCI HAR Dataset
@@ -65,3 +65,4 @@ Melt the remaining data to a tidy dataset based on Subject and Activity
 ├── README.md                                          # This README
 ├── run.R                                              # R Script
 └── tidy_results.txt                                   # Tidy Results
+```
