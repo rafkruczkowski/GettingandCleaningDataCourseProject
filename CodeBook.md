@@ -18,6 +18,10 @@ Data is processed by running the following R command:
 
 This will download the dataset from the URL above, extract the datasets, import, merge and melt the data to the `tidy_results.txt` file
 
+## Functions
+
+
+
 ## Variables
 
 | Name             | Use                                      | 
