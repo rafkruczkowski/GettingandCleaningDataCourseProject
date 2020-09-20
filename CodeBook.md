@@ -7,9 +7,13 @@ Course Project
 Source data is from the Human Activity Recognition Using Smartphones Dataset project
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-### Here are the data for the project:
+### Data source for the project:
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+## Library Requirements
+
+`reshape2`
 
 ## Processing
 
@@ -20,7 +24,23 @@ This will download the dataset from the URL above, extract the datasets, import,
 
 ## Functions
 
+### downloadData
+Download dataset and extract to for import
 
+### importDataSet
+Import the dataset and return it to a data type
+
+### mergeDataSets
+Use rbind to merge train and test datasets
+
+### selectColFunc
+Select the mean and standard deviations from the dataset and return the selectedColNames data type
+
+### bindandapplynames
+Compile all the data to a new `allData` set with the Subject and Activity columns selected
+
+### meltDataFunc
+Import the `allData` and melt the data to a `tidyData` Write results to file
 
 ## Variables
 
